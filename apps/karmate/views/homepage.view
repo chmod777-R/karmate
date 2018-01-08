@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <!-- You can use transfered variables :) -->
+<title>@/project/@ | @/version/@</title>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100,400,300,500,700' rel='stylesheet' type='text/css'>
+
+<!-- You can import your theme automaticly :) -->
+>> FW:APP\View::theme('css', 'vendor'); <<
+>> FW:APP\View::theme('css', 'karmate_theme_1'); <<
+<!-- For jss >> FW:APP\View::theme('js', 'karmate_theme_1'); << -->
+
+
+</head>
+<body>
+
+
+	<div align="center" class="fond">
+
+	  <div class="first_circle"></div>
+	  <div class="first_div">
+		  <div class="second_div">
+			  <div class="img_div">
+				  <!-- You can use constants :) -->
+				  <img src="@/rootLink/@themes/karmate_theme_1/img/karmate.png">
+			  </div>
+		  </div>
+	  </div>
+
+	<div class="txt_welcome">@/project/@ | @/version/@ </div>
+	<div class="txt_user">@/motto/@</div>
+
+	<!-- We have developed a language system with a seo focus for your simplest use :) -->
+	<a href=">> echo ROOT_LINK <<en:Homepage">
+		<span class="flag flag-us" alt="EN" />
+	</a>
+	<a href=">> echo ROOT_LINK <<tr:Homepage">
+		<span class="flag flag-tr" alt="TR" />
+	</a>
+	<a href=">> echo ROOT_LINK <<es:Homepage">
+		<span class="flag flag-es" alt="ES" />
+	</a>
+	<a href=">> echo ROOT_LINK <<de:Homepage">
+	   <span class="flag flag-de" alt="DE" />
+   </a>
+	</div>
+</body>
+
+</html>

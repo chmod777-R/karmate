@@ -1,0 +1,18 @@
+$smart_http = new \LIBRARY\SMARTHTTP\smarthttp();
+$smart_http->do = "get";
+$smart_http->get_data = $deneme;
+# If you do not use it will default to LINK_DATA.
+$smart_http->SET = "INBOUND";
+# If you do not use it, the default will be ",".
+$smart_http->delimiter = '|';
+#If you do not use it will default to ":".
+$smart_http->equalizer = '=';
+#IF WANTED TO ALLOW SOME HTML TAGS
+$smart_http->allowed_html_tags = '<b></b><i></i>';
+#
+$smart_http->run();
+echo @INBOUND["user_id"];
+echo @INBOUND["user_name"];
+or//
+      print_r(LINK_DATA);
+      print_r($smart_http->result);

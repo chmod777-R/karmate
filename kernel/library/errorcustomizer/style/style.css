@@ -1,0 +1,36 @@
+﻿body {
+  font-size: 16px;
+  background: #eee;
+}
+
+code {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 0.7rem;
+  line-height: 1.4;
+
+  overflow: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: .5rem;
+  max-height: 40%;
+  font-family: monospace;
+}
+
+code .line-number {
+  display: block;
+  float: left;
+  margin: 0 1em 0 -1em;
+  border-right: 1px solid #ddd;
+  text-align: right;
+}
+code .line-number span {
+  display: block;
+  padding: 0 .5em 0 1em;
+  color: #ccc;
+}
+code .cl {
+  display: block;
+  clear: both;
+}

@@ -1,0 +1,5 @@
+      $languageSupport = new \KERNEL\LIBRARY\LANGUAGE\Client; 
+      $languageSupport->libraryDir = __DIR__;
+      $languageSupport->libraryName = 'merhaba';
+      $languageSupport->run('Support');
+      echo merhaba_LIBRARY['1'];

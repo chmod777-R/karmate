@@ -1,0 +1,20 @@
+
+    #----------------------------------------------------------------------------------------------------
+    # This file automatically created and updated
+    #----------------------------------------------------------------------------------------------------
+    <IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    Options All -Indexes
+    ErrorDocument 403 /karmate/apps/karmate/error_pages/403.php
+    ErrorDocument 404 /karmate/apps/karmate/error_pages/404.php
+    ErrorDocument 401 /karmate/apps/karmate/error_pages/401.php
+    ErrorDocument 400 /karmate/apps/karmate/error_pages/400.php
+    RewriteRule ^public/(.*)  apps/karmate/public/$1 [NC]
+    RewriteRule ^themes/(.*)  apps/karmate/themes/$1 [NC]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$  karmate.php?operation=$1 [QSA]
+    DirectoryIndex karmate.php?operation=Homepage
+    </IfModule>
+    #----------------------------------------------------------------------------------------------------

@@ -1,0 +1,69 @@
+﻿/* Google Fonts Import
+--------------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold|Droid+Serif:regular,italic,bold,bolditalic&subset=latin);
+body
+{
+    font-family:'Droid Sans', arial, sans-serif;
+}
+.unsuccessful-ds-framework, .warning-ds-framework, .info-ds-framework, .successful-ds-framework {
+    padding: 20px 20px 20px 40px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 1px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+ 
+.unsuccessful-ds-framework {
+    background-color: #f8fad5;
+    background-image: url(img/unsuccessful.png);
+    border-color: #e5d35b;
+}
+ 
+.warning-ds-framework {
+    background-color: #f5dfdf;
+    background-image: url(img/warning.png);
+    border-color: #ce9e9e;
+}
+ 
+.info-ds-framework {
+    background-color: #dfeff5;
+    background-image: url(img/info.png);
+    border-color: #9ebcce;
+}
+ 
+.successful-ds-framework {
+    background-color: #e8f5df;
+    background-image: url(img/successful.png);
+    border-color: #9ece9e;
+}
+p.link {
+    font-style: italic;
+}
+p.class_name{
+     border: 1px solid black;
+     padding: 10px;
+     text-transform: uppercase;
+     color: blue;
+     font-weight: bold;
+}
+p.untransfered{
+     border: 1px solid black;
+     padding: 10px;
+     color: green;
+     font-weight: bold;
+}
+p.view_is_not_readable{
+     border: 1px solid black;
+     padding: 10px;
+     color: green;
+     font-weight: bold;
+}
+p.view_is_not_readable .view_name{
+     color: red;
+}
+span.row{
+    color:red;
+    font-weight: bold;
+    font-size:1.5em;
+}

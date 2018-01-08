@@ -1,0 +1,9 @@
+görünüm içerisinde bir kernel sınıfını çalıştırırken : 
+>> FW: APP\View::theme('css', 'Bicim') <<
+
+görünüm içerisinde bir php kodu çalıştırırken
+>> echo "deneme" <<
+
+
+bir kontrolcü içerisinde kısayol çalıştırmak
+>>kısayol<<
