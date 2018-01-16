@@ -6,7 +6,7 @@
     * @see    >> shortcut <<
     * @since  File available since Karmate v 1.0.0
     * ----------------------------------------------------------------------
-    * Controller programming shortcuts
+    * View programming shortcuts
     * In a completely understandable way
     * To do programming with the my own language
     * I used these shortcuts.
