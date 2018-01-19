@@ -8,7 +8,7 @@ class Homepage
 		$homepageTransfers = [
 			'rootLink' => ROOT_LINK,
 			'project'  => 'Karmate',
-			'version'  => '1.0.0',
+			'version'  => '1.0.2',
 			'motto'    => $language::$motto
 		];
 		>> new FW: APP\View('homepage', $homepageTransfers); <<
